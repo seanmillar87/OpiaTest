@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <URLShortenerForm msg="URL Shortener"/>
+    <URLShortenerForm title="URL Shortener"/>
   </div>
 </template>
 
