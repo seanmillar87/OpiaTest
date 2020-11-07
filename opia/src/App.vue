@@ -1,28 +1,37 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <URLShortenerForm msg="URL Shortener"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import URLShortenerForm from './components/URLShortenerForm.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    URLShortenerForm
   }
 }
 </script>
 
 <style>
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: #f9f9f9;
+  padding: 2rem 1rem;
+  background: #011936;
+  height: 100%;
 }
 </style>
