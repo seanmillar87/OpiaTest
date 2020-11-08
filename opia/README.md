@@ -23,6 +23,7 @@ npm run lint
 ### Run unit tests
 ```
 npm run test:unit
+(occasionally fails on first attempt, try running again if it dies)
 ```
 
 ### Customize configuration
