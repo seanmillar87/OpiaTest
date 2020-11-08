@@ -26,5 +26,3 @@ npm run test:unit
 (occasionally fails on first attempt, try running again if it dies)
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
