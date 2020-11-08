@@ -62,7 +62,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
    .FormContainer {
      padding: 2rem 0;
    }
