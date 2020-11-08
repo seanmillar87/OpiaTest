@@ -41,6 +41,7 @@ export default {
           this.showErrorMessage = true;
           return;
         }
+
         this.showErrorMessage = false;
         this.getShortenedUrl();
       },
@@ -54,7 +55,7 @@ export default {
       async getShortenedUrl() {
         const res = await fetch(`https://api.shrtco.de/v2/shorten?url=${this.form.fullUrl}`);
         const data = await res.json();
-        this.shortenedUrl = data.result.full_short_link;
+        this.shortenedUrl = data.result.short_link;
       }      
     }  
 }
