@@ -1,4 +1,7 @@
-# opia
+# URL shortener
+```
+Small FE for the shrtco.de api to shorten a URL
+```
 
 ## Project setup
 ```
